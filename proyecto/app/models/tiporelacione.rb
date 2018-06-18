@@ -1,0 +1,2 @@
+class Tiporelacione < ApplicationRecord
+end

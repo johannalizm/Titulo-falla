@@ -1,0 +1,2 @@
+class Tipoinstitucione < ApplicationRecord
+end

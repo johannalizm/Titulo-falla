@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Nombre:</strong>
+  <%= @institucione.nombre %>
+</p>
+
+<p>
+  <strong>Pais:</strong>
+  <%= @institucione.pais %>
+</p>
+
+<p>
+  <strong>Codigopostal:</strong>
+  <%= @institucione.codigopostal %>
+</p>
+
+<%= link_to 'Edit', edit_institucione_path(@institucione) %> |
+<%= link_to 'Back', instituciones_path %>
